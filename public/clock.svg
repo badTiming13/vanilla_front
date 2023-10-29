@@ -1,0 +1,14 @@
+<svg width="50" height="54" viewBox="0 0 50 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Query builder">
+<g clip-path="url(#clip0_47_132)">
+<rect width="50" height="54" fill="black"/>
+<path id="Vector" d="M24.9791 4.5C13.4791 4.5 4.16663 14.58 4.16663 27C4.16663 39.42 13.4791 49.5 24.9791 49.5C36.5 49.5 45.8333 39.42 45.8333 27C45.8333 14.58 36.5 4.5 24.9791 4.5ZM25 45C15.7916 45 8.33329 36.945 8.33329 27C8.33329 17.055 15.7916 9 25 9C34.2083 9 41.6666 17.055 41.6666 27C41.6666 36.945 34.2083 45 25 45Z" fill="#F4D18D" fill-opacity="0.9"/>
+<path id="Vector_2" d="M25.2404 16.3931H22.1154V29.8931L33.0529 36.9806L34.6154 34.2131L25.2404 28.2056V16.3931Z" fill="#F4D18D" fill-opacity="0.9"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_47_132">
+<rect width="50" height="54" fill="white"/>
+</clipPath>
+</defs>
+</svg>

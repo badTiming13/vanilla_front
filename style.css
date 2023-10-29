@@ -1,0 +1,260 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: black;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.hero{
+  text-wrap: balance;
+  min-height: 90vh;
+}
+
+.hero-title{
+  line-height: 120px; /* 110.185% */
+  letter-spacing: 20px;
+  
+}
+
+.container {
+  display: flex;
+}
+.box {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.box:first-child > span { margin-right: auto; }
+
+.box:last-child  > span { margin-left: auto;  }
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.line {
+  width: 30px;
+  height: 1px;
+  background-color: #ffffff;
+  transform: translateY(1px);
+}
+.scroll-down{
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+}
+
+.scroll-down svg {
+  animation: bounce 1.5s infinite;
+}
+.snd-title{
+  line-height: 84px;
+}
+
+#page1 {
+  display: grid;
+  grid-template-columns: ;
+  gap: 20px; /* Adjust the gap as needed */
+  border-top: 1px solid #d9d9d949;
+  /* Additional styling if required */
+  justify-content: center; /* Centers the grid items horizontally */
+}
+
+.card{
+  border-radius: 80px;
+  width: 515px;
+  height: 391px;
+}
+.card3{
+  border-radius: 80px;
+  width: 515px;
+  height: 391px;
+  background: #D9D9D9;
+}
+
+.card:nth-child(1){
+  background: #D9D9D9;
+
+}
+.card:nth-child(2){
+  background: yellow;
+  
+}
+#page1{
+  min-height: 80vh;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block: 8rem;
+}
+#page1 h1{
+  position: absolute;
+  top: 3vh;
+  left: 3vw;
+}
+#page1 h1::before{
+  content: "01";
+  padding-inline: 1rem;
+}
+#page2{
+  background: white;
+  min-height: 80vh;
+  border-radius: 127px 127px 0 0;
+} 
+.title-ss{
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  padding-inline: 5rem;
+  display: flex;
+  gap: 1rem;
+  text-transform: uppercase;
+  font-size: 68px;
+  border-bottom: 1px solid black;
+}
+.card2-wrapper{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding-top: 8rem;
+  position: relative;
+}
+.c2-wr-t{
+  position: absolute;
+  top: 3vh;
+  left: 3vw;
+}
+.c2-wr-t::before{
+  content: "02";
+  padding-inline: 1rem;
+}
+.page2-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ padding: 3rem;
+}
+.page2-btn a{
+  background: black;
+  color: white;
+  display: flex;
+  gap: 1rem;
+  padding-inline: 2rem;
+  padding-block: 1rem;
+  align-items: baseline;
+  justify-content: center;
+  border-radius: 11px;
+  font-size: 18px;
+}
+.page2-btn a img {
+  transition: transform 0.3s ease; /* Add smooth transition */
+}
+.page2-btn a:hover img {
+  transform: translateX(10px); /* Move the image 40px to the right on hover */
+}
+
+.img{
+  background: gray;
+  height: 300px;
+  width: 260px;
+  border-radius: 50px;
+}
+.card2 .card2-title, .card2 a{
+  padding-inline: 1rem;
+}
+.s2mc-title{
+  text-transform: uppercase;
+  font-size: 28px;
+  padding-block: 3rem;
+  padding-inline: 2rem;
+  position: relative;
+}
+.s2-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5rem;
+}
+.s2-main-card{
+  border-radius: 50px;
+  background: rgba(244, 209, 141, 0.90);
+  width: 90vw;
+  position: relative;
+}
+.counter{
+ position: absolute;
+ z-index: 10;
+ top: 0;
+ left: 3vw;
+}
+.counter::before{
+  content: "03";
+  padding-right: 2rem;
+}
+.icon-wrapper{
+  background: black;
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+}
+.s2-block{
+  display: flex;
+  width: 100%;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid black;
+  padding-block: 2rem;
+  position: relative;
+}
+.s2-block:nth-child(6){
+  border-bottom: 1px solid black;
+  margin-bottom: 8rem; 
+}
+.s2-block ul{
+  list-style: disc;
+}
+.s2-block h1{
+  font-size: 20px;
+}
+.s2-block li{
+  font-size: 60px;
+}
+.test1, .test2{
+  width: 50%;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}

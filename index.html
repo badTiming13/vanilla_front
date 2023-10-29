@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <title>Vite App</title>
+  </head>
+  <body>
+    <nav class="flex bg-[#0E0C0C] items-center mycontainer py-5 ">
+      <div class="box">
+        <a href="#" class="flex gap-2">
+          <h1>automate Me </h1>
+          <svg width="29" height="27" viewBox="0 0 29 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M19.0413 8.67397H9.52066V17.3479H19.0413V8.67397ZM15.8678 14.4566H12.6942V11.5653H15.8678V14.4566ZM28.562 11.5653V8.67397H25.3884V5.78264C25.3884 4.19242 23.9603 2.89132 22.2149 2.89132H19.0413V0H15.8678V2.89132H12.6942V0H9.52066V2.89132H6.34711C4.60165 2.89132 3.17355 4.19242 3.17355 5.78264V8.67397H0V11.5653H3.17355V14.4566H0V17.3479H3.17355V20.2393C3.17355 21.8295 4.60165 23.1306 6.34711 23.1306H9.52066V26.0219H12.6942V23.1306H15.8678V26.0219H19.0413V23.1306H22.2149C23.9603 23.1306 25.3884 21.8295 25.3884 20.2393V17.3479H28.562V14.4566H25.3884V11.5653H28.562ZM22.2149 20.2393H6.34711V5.78264H22.2149V20.2393Z" fill="#FFD704"/>
+          </svg>          
+        </a>
+      </div>
+      
+      <div class="box">
+
+        <ul class="list-none flex gap-6 ">
+          <li class="underline underline-offset-4 hover:no-underline"><a href="#">Devs</a></li>
+          <li class="underline underline-offset-4 hover:no-underline"><a href="#">Create project</a></li>
+        </ul>
+
+      </div>
+
+      <div class="box flex items-center justify-center gap-2">
+
+        <h1 class="cursor-pointer">Menu</h1>
+        <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+
+      </div>
+
+    </nav>
+
+    <section class="flex flex-col gap-8 items-center justify-center hero bg-[#030303] rounded-b-3xl" style="position: relative;">
+      <div id="particles-js" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></div>
+      <div style="position: relative; z-index: 1;">
+        <h1 class="hero-title text-8xl text-center uppercase max-w-7xl">Find devs or get a dream project for your company</h1>
+      </div>
+      <div class="flex gap-8 text-black">
+        <a href="" class="bg-white py-4 px-6 rounded-xl">Find devs</a>
+        <a href="" class="bg-white py-4 px-6 rounded-xl">Say hi</a>
+      </div>
+
+      <div class="flex flex-col items-center justify-center gap-4 scroll-down">
+        <div>
+          <svg width="24" height="26" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M13.5 0V9.40173H24C24 4.56452 19.425 0.580939 13.5 0ZM0 16.5153C0 21.7556 5.37 26 12 26C18.63 26 24 21.7556 24 16.5153V11.7729H0V16.5153ZM10.5 0C4.575 0.580939 0 4.56452 0 9.40173H10.5V0Z" fill="white"/>
+            </svg>            
+        </div>
+
+        <div >
+          <h1 class="uppercase">Scroll down</h1>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-black p-8 flex flex-col gap-16">
+        <div class=" flex flex-col gap-5">
+          <div class="flex items-center gap-4">
+            <h1 class="text-8xl">automate Me</h1>
+            <svg width="111" height="101" viewBox="0 0 111 101" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M73.8472 45.3932C73.8472 38.7658 68.4746 33.3932 61.8472 33.3932H49.121C42.4936 33.3932 37.121 38.7658 37.121 45.3932V54.7828C37.121 61.4102 42.4936 66.7828 49.121 66.7828H61.8472C68.4746 66.7828 73.8472 61.4102 73.8472 54.7828V45.3932ZM61.6051 50.088C61.6051 53.1614 59.1136 55.6529 56.0402 55.6529H54.928C51.8546 55.6529 49.3631 53.1614 49.3631 50.088C49.3631 47.0146 51.8546 44.5231 54.928 44.5231H56.0402C59.1136 44.5231 61.6051 47.0146 61.6051 50.088ZM105.009 44.5231C108.082 44.5231 110.573 42.0316 110.573 38.9582C110.573 35.8847 108.082 33.3932 105.009 33.3932H104.452C101.072 33.3932 98.3314 30.6527 98.3314 27.2722V22.2634C98.3314 16.142 92.8224 11.1335 86.0893 11.1335H79.4121C76.3387 11.1335 73.8472 8.64201 73.8472 5.56859C73.8472 2.49517 71.3557 0.00366211 68.2823 0.00366211H67.1701C64.0967 0.00366211 61.6051 2.49517 61.6051 5.56859C61.6051 8.64201 59.1136 11.1335 56.0402 11.1335H54.928C51.8546 11.1335 49.3631 8.64201 49.3631 5.56859C49.3631 2.49517 46.8716 0.00366211 43.7981 0.00366211H42.6859C39.6125 0.00366211 37.121 2.49517 37.121 5.56859C37.121 8.64201 34.6295 11.1335 31.5561 11.1335H24.8789C18.1458 11.1335 12.6369 16.142 12.6369 22.2634V27.2722C12.6369 30.6527 9.89637 33.3932 6.51581 33.3932H5.9597C2.88628 33.3932 0.394775 35.8847 0.394775 38.9582C0.394775 42.0316 2.88628 44.5231 5.9597 44.5231H7.07192C10.1453 44.5231 12.6369 47.0146 12.6369 50.088C12.6369 53.1614 10.1453 55.6529 7.07192 55.6529H5.95971C2.88628 55.6529 0.394775 58.1444 0.394775 61.2179C0.394775 64.2913 2.88628 66.7828 5.9597 66.7828H6.51581C9.89637 66.7828 12.6369 69.5233 12.6369 72.9038V77.9127C12.6369 84.0341 18.1458 89.0425 24.8789 89.0425H31.5561C34.6295 89.0425 37.121 91.534 37.121 94.6074C37.121 97.6809 39.6125 100.172 42.6859 100.172H43.7981C46.8716 100.172 49.3631 97.6809 49.3631 94.6074C49.3631 91.534 51.8546 89.0425 54.928 89.0425H56.0402C59.1136 89.0425 61.6051 91.534 61.6051 94.6074C61.6051 97.6809 64.0967 100.172 67.1701 100.172H68.2823C71.3557 100.172 73.8472 97.6809 73.8472 94.6074C73.8472 91.534 76.3387 89.0425 79.4121 89.0425H86.0893C92.8224 89.0425 98.3314 84.0341 98.3314 77.9127V72.9038C98.3314 69.5233 101.072 66.7828 104.452 66.7828H105.009C108.082 66.7828 110.573 64.2913 110.573 61.2179C110.573 58.1444 108.082 55.6529 105.009 55.6529H103.896C100.823 55.6529 98.3314 53.1614 98.3314 50.088C98.3314 47.0146 100.823 44.5231 103.896 44.5231H105.009ZM86.0893 65.9127C86.0893 72.5401 80.7167 77.9127 74.0893 77.9127H36.8789C30.2515 77.9127 24.8789 72.5401 24.8789 65.9127V34.2634C24.8789 27.636 30.2515 22.2634 36.8789 22.2634H74.0893C80.7167 22.2634 86.0893 27.636 86.0893 34.2634V65.9127Z" fill="#FFD704"/>
+              </svg>              
+          </div>
+          <div>
+            <p class="text-xl">Code the future today</p>
+          </div>
+        </div>
+
+        <div class="text-7xl font-normal snd-title">
+          <h1>Connects</h1>
+          <h1>Proofed it companies with</h1>
+          <h1>great clients who need them.</h1>
+          <h1>All in one place</h1>
+        </div>
+    </section>
+    
+    <section id="page1" class="relative">
+      <h1 class="">some page</h1>
+        <div class="flex gap-6">
+          <div class="card"></div>
+          <div class="card"></div>
+        </div>
+        <div class="flex gap-6">
+          <div class="card"></div>
+          <div class="card"></div>
+        </div>
+    </section>
+
+    <section id="page2" class="text-black">
+      
+      <div class="title-ss">
+        <h1>Live</h1>
+        <img src="done.svg" alt="img">
+        <h1>Requests</h1>
+      </div>
+
+      <div class="card2-wrapper">
+        <h1 class="c2-wr-t">what we do</h1>
+        <div class="card2">
+          <div class="img"></div>
+          <h1 class="card2-title">Title</h1>
+          <a href="#">Example development</a>
+        </div>
+        <div class="card2">
+          <div class="img"></div>
+          <h1 class="card2-title">Title</h1>
+          <a href="#">Example development</a>
+        </div>
+        <div class="card2">
+          <div class="img"></div>
+          <h1 class="card2-title">Title</h1>
+          <a href="#">Example development</a>
+        </div>
+        <div class="card2">
+          <div class="img"></div>
+          <h1 class="card2-title">Title</h1>
+          <a href="#">Example development</a>
+        </div>
+        
+      </div>
+
+      <div class="page2-btn">
+        <a href="#" class="">
+          <p>Discover more</p>
+          <img src="r-arr.svg" alt="arrow">
+        </a>
+      </div>
+
+      <div class="s2-wrapper">
+
+        <div class="s2-main-card">
+         
+
+          <h1 class="s2mc-title">
+            Predict everything.
+            <br>
+            In a good way
+          </h1>
+          
+
+          <div class="s2-block ">
+            <p class="counter">features</p>
+           
+              <div class="">
+                <ul>
+                  <li>Timing</li>
+                </ul>
+              </div>
+  
+              <div class="icon-wrapper">
+                <img id="clock" src="clock.svg" alt="timing">
+              </div>
+            
+
+            <div class="">
+              <h1 class="w-max">FIND REQUESTS QUICKLY <br> AND GET NOTIFICATIONS <br> ABOUT NEW JOBS.</h1>
+            </div>
+
+          </div>
+
+          <div class="s2-block ">
+            <div class="">
+              <ul>
+                <li>Quality leads</li>
+              </ul>
+            </div>
+
+            <div class="icon-wrapper ">
+              <img id="clock" src="pipe.svg" alt="timing">
+            </div>
+            <div class="">
+              <h1>FIND REQUESTS QUICKLY <br> AND GET NOTIFICATIONS <br> ABOUT NEW JOBS.</h1>
+            </div>
+          </div>
+
+          <div class="s2-block">
+            <ul>
+              <li>Processes</li>
+            </ul>
+            <div class="icon-wrapper">
+              <img id="clock" src="process.svg" alt="timing">
+            </div>
+            <div>
+              <h1>FIND REQUESTS QUICKLY <br> AND GET NOTIFICATIONS <br> ABOUT NEW JOBS.</h1>
+            </div>
+          </div>
+
+          <div class="s2-block">
+            <ul>
+              <li>Safety and support</li>
+            </ul>
+            <div class="icon-wrapper">
+              <img id="clock" src="heart.svg" alt="timing">
+            </div>
+            <div>
+              <h1>FIND REQUESTS QUICKLY <br> AND GET NOTIFICATIONS <br> ABOUT NEW JOBS.</h1>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="flex items-center justify-evenly pt-6 pb-6">
+        <div class="card3"></div>
+        <div class="card3"></div>
+        <div class="card3"></div>
+      </div>
+
+    </section>
+
+    
+    <script>
+      particlesJS("particles-js", {
+        particles: {
+          number: {
+            value: 80,
+            density: {
+              enable: true,
+              value_area: 800,
+            },
+          },
+          color: {
+            value: "#ffffff",
+          },
+          shape: {
+            type: "circle",
+            stroke: {
+              width: 0,
+              color: "#000000",
+            },
+            polygon: {
+              nb_sides: 5,
+            },
+            image: {
+              src: "img/github.svg",
+              width: 100,
+              height: 100,
+            },
+          },
+          opacity: {
+            value: 0.5,
+            random: false,
+            anim: {
+              enable: false,
+              speed: 1,
+              opacity_min: 0.1,
+              sync: false,
+            },
+          },
+          size: {
+            value: 3,
+            random: true,
+            anim: {
+              enable: false,
+              speed: 40,
+              size_min: 0.1,
+              sync: false,
+            },
+          },
+          line_linked: {
+            enable: true,
+            distance: 150,
+            color: "#ffffff",
+            opacity: 0.4,
+            width: 1,
+          },
+          move: {
+            enable: true,
+            speed: 2,
+            direction: "none",
+            random: false,
+            straight: false,
+            out_mode: "out",
+            bounce: false,
+            attract: {
+              enable: false,
+              rotateX: 600,
+              rotateY: 1200,
+            },
+          },
+        },
+        interactivity: {
+          detect_on: "canvas",
+          events: {
+            onhover: {
+              enable: true,
+              mode: "repulse",
+            },
+            onclick: {
+              enable: true,
+              mode: "push",
+            },
+            resize: true,
+          },
+          modes: {
+            grab: {
+              distance: 400,
+              line_linked: {
+                opacity: 1,
+              },
+            },
+            bubble: {
+              distance: 400,
+              size: 40,
+              duration: 2,
+              opacity: 8,
+              speed: 3,
+            },
+            repulse: {
+              distance: 200,
+              duration: 0.4,
+            },
+            push: {
+              particles_nb: 4,
+            },
+            remove: {
+              particles_nb: 2,
+            },
+          },
+        },
+        retina_detect: true,
+      });
+    </script>
+    
+  </body>
+</html>
